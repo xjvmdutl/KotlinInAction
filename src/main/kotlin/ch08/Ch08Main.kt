@@ -23,6 +23,9 @@ fun main(args: Array<String>) {
     twoAndThree { a, b -> a + b }
     twoAndThree { a, b -> a * b }
      */
+
+
+
     println("ab1c".filter { it in 'a'..'z' }) //람다를 predicate 파라미터로 전달한다
 }
 
