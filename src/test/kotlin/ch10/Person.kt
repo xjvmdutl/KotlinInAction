@@ -1,5 +1,5 @@
 package kotlininaction
-
+/*
 import ru.yole.jkid.CustomSerializer
 import ru.yole.jkid.DeserializeInterface
 import ru.yole.jkid.JsonExclude
@@ -8,6 +8,7 @@ import ru.yole.jkid.deserialization.deserialize
 import ru.yole.jkid.examples.customSerializerTest.DateSerializer
 import ru.yole.jkid.serialization.serialize
 import java.util.Date
+ */
 
 /*
 data class Person(
@@ -26,6 +27,7 @@ data class Person(
     @DeserializeInterface(CompanyImpl::class) val company: Company
 )
  */
+/*
 data class Person(
     val name: String,
     @CustomSerializer(DateSerializer::class) val birthDate: Date
@@ -37,5 +39,5 @@ fun main(args: Array<String>) {
     val json = """{"name": "Alice", "age": 29}"""
     println(deserialize<Person>(json))
      */
-
 }
+ */
